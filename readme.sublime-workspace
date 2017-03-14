@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"owl",
+				"owl-item\t(index.html)"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"header",
+				"header__logo-text\t(index.html)"
+			],
+			[
+				"header__logo-",
+				"header__logo-underline\t(index.html)"
+			],
+			[
+				"tex",
+				"text-align\t(main.sass)"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align\t(myicon.css)"
+			],
+			[
+				"slide",
+				"slideDown\t.slideDown()"
+			],
+			[
+				"none",
+				"none\t(main.sass)"
+			],
+			[
+				"di",
+				"display\t(main.sass)"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"cur",
+				"cur:p\tcursor:pointer"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"else",
+				"else if()"
+			],
+			[
+				"offisi",
+				"offisialName"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"cons",
+				"console.log()"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"g",
+				"getElementsByClassName"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"lei",
+				"line-height"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"rgb",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 152.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Admin/Downloads/Привет",
+		"/C/Users/Admin/Desktop/logo.svg",
+		"/C/Users/Admin/Desktop/helvetica/HelveticaNeue-Bold/fonts.css",
+		"/C/Users/Admin/Desktop/helvetica/info.html",
+		"/C/Users/Admin/Desktop/uPwork предложения",
+		"/C/Users/Admin/Desktop/Новый текстовый документ.txt",
+		"/C/Users/Admin/Downloads/Предложение.txt",
+		"/C/Users/Admin/Desktop/index.html",
+		"/C/Users/Admin/Desktop/trusted.svg",
+		"/C/Users/Admin/Desktop/responsive.svg",
+		"/C/Users/Admin/Desktop/responsive1.svg",
+		"/C/Users/Admin/Desktop/price.svg",
+		"/G/uPwork предложения.txt",
+		"/G/Приветю.txt",
+		"/C/Users/Admin/Downloads/styles.css",
+		"/C/Users/Admin/Downloads/index.html",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX00.457/signature/signature.html",
+		"/C/Users/Admin/Downloads/index_logged.html",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX00.872/index.html",
+		"/E/WORK/my_directory/frontend/hotel_template/app/index.html",
+		"/E/WORK/my_directory/frontend/hotel_template/app/sass/main.sass",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/js/common.js",
+		"/E/WORK/my_directory/frontend/test_hotel/app/index.html",
+		"/E/WORK/my_directory/frontend/hotel_template/app/js/common.js",
+		"/E/WORK/my_directory/frontend/hotel_template/app/libs/owlcarousel/assets/owl.carousel.css",
+		"/E/WORK/my_directory/frontend/test_hotel/app/sass/main.sass",
+		"/E/WORK/my_directory/frontend/test_hotel/app/libs/myicon/myicon.css",
+		"/E/WORK/my_directory/frontend/test_hotel/app/sass/_vars.sass",
+		"/C/Users/Admin/Downloads/optimizedhtml-start-template-master/optimizedhtml-start-template-master/package.json",
+		"/E/WORK/my_directory/frontend/test_hotel/.bowerrc",
+		"/E/WORK/my_directory/frontend/test_hotel/package.json",
+		"/E/WORK/my_directory/frontend/hotel_template/.gitignore",
+		"/E/WORK/my_directory/frontend/hotel_template/.bowerrc",
+		"/E/WORK/my_directory/frontend/hotel_template/.git/config",
+		"/E/WORK/my_directory/frontend/shopno/app/index.html",
+		"/E/WORK/my_directory/frontend/shopno/app/sass/main.sass",
+		"/E/WORK/my_directory/frontend/shopno/app/sass/_media.sass",
+		"/G/uPwork предложения",
+		"/E/WORK/my_directory/frontend/unify/index.html",
+		"/E/WORK/my_directory/frontend/shopno/package.json",
+		"/E/WORK/my_directory/frontend/shopno/readme.md",
+		"/E/WORK/my_directory/frontend/shopno/gulpfile.js",
+		"/E/WORK/my_directory/frontend/shopno/node_modules/node-sass/lib/binding.js",
+		"/G/Hello!",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/sass/main.sass",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/index.html",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/owlcarousel/assets/owl.theme.default.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/owlcarousel/assets/owl.carousel.css",
+		"/E/WORK/my_directory/frontend/spoho/package.json",
+		"/E/WORK/my_directory/frontend/spoho/app/index.html",
+		"/C/Users/Admin/Downloads/OwlCarousel2-2.2.0/docs/index.html",
+		"/C/Users/Admin/Downloads/OwlCarousel2-2.2.0/dist/README.md",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/001_Введение/001_Samples/css/main.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/myicon/myicon.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/owl-carousel/owl.theme.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/owl-carousel/owl.carousel.css",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX07.747/template_bootstrap/index.html",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DI22.301/common.js",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DI06.388/fonts.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/css/slick.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/css/slick-theme.css",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX00.145/lesson14/index.html",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/slick-1.6.0/slick/slick-theme.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/slick-1.6.0/slick/slick.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/slick-1.6.0/slick/slick.min.js",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/slick-1.6.0/slick/slick.js",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/sass/_media.sass",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/005_Верстка макета (Часть 3)/Lesson 5. Верстаем футер/css/media.css",
+		"/E/WORK/my_directory/frontend/examples/transform/index.html",
+		"/E/WORK/my_directory/frontend/shopno/app/libs/fontello/fontello.css",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX00.853/template_bootstrap/index.html",
+		"/E/WORK/my_directory/frontend/shopno/app/js/common.js",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Documentation/res/css/style.css",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Documentation/res/css/jquery.mCustomScrollbar.css",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/index.html",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/shortcodes.html",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/_include/php/contact.php",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/_include/js/placeholder.js",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/_include/css/responsive.css",
+		"/E/WORK/my_directory/frontend/New idea/Brushed/Template/brushed/_include/css/supersized.css",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/003_Верстка макета (Часть 1)/Lesson 3. Header part/css/main.css",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/003_Верстка макета (Часть 1)/Lesson 3. Header part/css/media.css",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/001_Введение/001_Samples/index.html",
+		"/E/WORK/my_directory/frontend/Создание адаптивного сайта с Bootstrap 3/materials/003_Верстка макета (Часть 1)/Lesson 3. Header part/index.html",
+		"/E/WORK/my_directory/frontend/spoho_one/js/common.js",
+		"/E/WORK/my_directory/frontend/Hotel_template/node_modules/gulp-uglify/lib/create-error.js",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DI01.305/common.js",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DI03.119/package.json",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$EX00.674/optimizedhtml-start-template-master/app/index.html",
+		"/E/WORK/my_directory/frontend/Hotel_template/gulpfile.js",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/jquery/dist/jquery.min.js",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/js/scripts.min.js",
+		"/C/Users/Admin/Downloads/template_bootstrap_demo/css/media.css",
+		"/C/Users/Admin/Downloads/template_bootstrap_demo/index.html",
+		"/E/WORK/my_directory/frontend/Кнопка прокрутки вверх/common.js",
+		"/E/WORK/my_directory/frontend/Кнопка прокрутки вверх/main.css",
+		"/E/WORK/my_directory/frontend/Кнопка прокрутки вверх/index.html",
+		"/E/WORK/my_directory/frontend/Кнопка прокрутки вверх/jquery.js",
+		"/E/WORK/my_directory/frontend/Слайдер/common.js",
+		"/E/WORK/my_directory/frontend/Слайдер/index.html",
+		"/E/WORK/my_directory/frontend/Слайдер/main.css",
+		"/E/WORK/my_directory/frontend/spoho_one/index.html",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/sass/_vars.sass",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/sass/_fonts.sass",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/sass/_libs.sass",
+		"/E/WORK/my_directory/frontend/x/index.html",
+		"/E/WORK/my_directory/frontend/x/main.js",
+		"/G/.cm0013",
+		"/C/Users/Admin/Downloads/fontello-c9456322/css/myicon.css",
+		"/C/Users/Admin/Downloads/fontello-c9456322/config.json",
+		"/C/Users/Admin/Downloads/fontello-c9456322/css/myicon-codes.css",
+		"/C/Users/Admin/Downloads/fontello-c9456322/css/animation.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/font-awesome/font-awesome.css",
+		"/E/WORK/my_directory/frontend/spoho_one/css/font-awesome.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/img/logo.svg",
+		"/C/Users/Admin/AppData/Local/Temp/Rar$DI00.825/fonts.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/app/libs/bootstrap-grid/bootstrap-grid.css",
+		"/E/WORK/my_directory/frontend/Hotel_template/package.json",
+		"/C/Users/Admin/.npmrc",
+		"/C/Program Files/nodejs/node_modules/npm/html/doc/cli/npm-config.html",
+		"/E/WORK/my_directory/frontend/Hotel_template/readme.md",
+		"/E/WORK/my_directory/frontend/jquery.js",
+		"/C/Users/Admin/Downloads/css/bootstrap-theme.min.css",
+		"/C/Users/Admin/Downloads/css/bootstrap.css",
+		"/C/Users/Admin/Downloads/css/bootstrap-theme.css",
+		"/C/Users/Admin/Downloads/css/bootstrap.min.css",
+		"/C/Users/Admin/Downloads/config.json",
+		"/E/WORK/my_directory/frontend/spoho_one/css/styles.css"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"responsive",
+			"451",
+			"event",
+			"getElementById",
+			"{\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "readme.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

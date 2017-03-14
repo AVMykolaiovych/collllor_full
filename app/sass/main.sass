@@ -1,0 +1,70 @@
+@import "bourbon"
+@import "fonts"
+@import "libs"
+@import "vars"
+
+* 
+	box-sizing: border-box
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+a:hover
+	transition: 0.4s
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1
+	font-family: $helvetica_regular
+	overflow-x: hidden
+
+h1
+	font-size: 3em
+
+h2
+ 	font-size: 1.75em
+
+h3
+ 	font-size: 1.5em
+
+.btn
+	border: none
+    color: rgb(255, 255, 255)
+    padding: 15px 32px
+    text-align: center
+    text-decoration: none
+    display: inline-block
+    cursor: pointer
+
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+@import "media" // Всегда в конце
