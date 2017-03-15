@@ -5,18 +5,41 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
-	/**/
+    .header__form
+        width: 50%
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
-	/**/
-
+    body
+        font-size: 14px
+    .header__brand
+        text-align: center
+        padding-left: 0
+    .header__h3
+        padding-top: 15px
+    .header__form
+        width: 70%
+    .header__img
+        padding: 0 15px
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
-	/**/
-
+    body
+        //font-size: 12px
+    .header__form
+        margin-top: 20px
+        box-shadow: none
+        display: block
+    .header__form-input, .header__form-btn
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.17)
+        margin: 8px 0
+        width: 100%
+        border-radius: 3px
+    .article__item
+        margin-bottom: 30px
+    .footer__img
+        display: none
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)

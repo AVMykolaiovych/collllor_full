@@ -3,57 +3,62 @@
 @import "libs"
 @import "vars"
 
-* 
-	box-sizing: border-box
+*
+    box-sizing: border-box
 
 *::-webkit-input-placeholder
-	color: #666
-	opacity: 1
+    color: #666
+    opacity: 1
 
 *:-moz-placeholder
-	color: #666
-	opacity: 1
+    color: #666
+    opacity: 1
 
 *::-moz-placeholder
-	color: #666
-	opacity: 1
+    color: #666
+    opacity: 1
 
 *:-ms-input-placeholder
-	color: #666
-	opacity: 1
+    color: #666
+    opacity: 1
 
 a:hover
-	transition: 0.4s
+    @include transition
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
-	color: #666
+    color: #666
+
 body input:required:valid,
 body textarea:required:valid
-	color: #666
+    color: #666
 
 html, body
-	height: 100%
+    height: 100%
 
 body
-	font-size: 16px
-	min-width: 320px
-	position: relative
-	line-height: 1
-	font-family: $helvetica_regular
-	overflow-x: hidden
+    font-size: 16px
+    min-width: 320px
+    position: relative
+    line-height: 1
+    font-family: $helvetica_light
+    overflow-x: hidden
+    background-color: rgb(118, 118, 118)
 
 h1
-	font-size: 3em
+    margin: 0
+    font-size: 3em
 
 h2
- 	font-size: 1.75em
+    margin: 0
+    font-size: 1.75em
 
 h3
- 	font-size: 1.5em
+    margin: 0
+    font-size: 1.5em
 
 .btn
-	border: none
+    border: none
     color: rgb(255, 255, 255)
     padding: 15px 32px
     text-align: center
@@ -61,10 +66,146 @@ h3
     display: inline-block
     cursor: pointer
 
-
 .img-responsive
-	display: block
-	max-width: 100%
-	height: auto
+    display: block
+    max-width: 100%
+    height: auto
 
-@import "media" // Всегда в конце
+.main
+    margin: 0 auto
+    overflow: hidden
+    max-width: 1440px
+    background: rgb(255, 255, 255) url('../img/yellow-bg.svg') no-repeat
+    position: relative
+#purple-bg
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    opacity: 1
+    background: url('../img/purple-bg.svg') no-repeat
+.header
+    position: relative
+    text-align: center
+    color: rgb(255, 255, 255)
+    &__brand
+        text-align: left
+        padding-top: 30px
+        padding-left: 55px
+        z-index: 999
+    &__h1
+        padding-top: 47px
+        font-family: $helvetica_bold
+        z-index: 999
+    &__h3
+        padding-top: 50px
+        z-index: 999
+    &__form
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.17)
+        display: flex
+        margin: 28px auto 0 auto
+        font-family: $brandon_medium
+        width: 40%
+        z-index: 999
+        &-input
+            -webkit-font-smoothing: antialiased
+            display: inline-block
+            height: 3em
+            padding: 0.77778em 0.88889em
+            color: rgb(48, 55, 59)
+            border: 1px solid rgb(169, 169, 169)
+            transition: border-color 150ms
+            -webkit-appearance: none
+            font-size: 1.125em
+            border-top-left-radius: 3px
+            border-bottom-left-radius: 3px
+            flex: 1
+            @include placeholder
+        &-btn
+            display: inline-block
+            background-color: rgb(48, 55, 59)
+            border-top-right-radius: 3px
+            border-bottom-right-radius: 3px
+            height: 3em
+            padding: 0.77778em 1.66667em
+            border: 0
+            font-size: 1.125em
+            -webkit-font-smoothing: antialiased
+            text-align: center
+            cursor: pointer
+            margin: 0
+            flex-shrink: 0
+            @include transition
+            &:hover
+                background-color: rgb(21, 37, 31)
+    &__text
+        margin: 20px 0 48px 0
+        font-size: 0.875em
+    &__img
+        max-width: 100%
+        height: auto
+.article
+    padding: 60px 0
+    &__img
+        width: 40px
+        height: 40px
+
+    &__heading
+        color: rgba(0, 0, 0, 0.6)
+        font-family: $helvetica_bold
+        line-height: 24px
+    &__text
+        color: rgb(104, 110, 109)
+        line-height: 24px
+    &__link
+        color: rgb(221, 9, 9)
+        @include transition
+        &:hover, &:active, &:focus
+            color: rgb(221, 9, 9)
+.button
+    padding: 50px 0 70px
+    border-top: 1px solid rgb(229,229,229)
+    text-align: center
+    &__get-start
+        display: inline-block
+        color: rgb(255, 255, 255)
+        background-color: rgb(122, 181, 92)
+        height: 3em
+        padding: 0.77778em 1.66667em
+        border: 0
+        border-radius: 3px
+        font-size: 1.125em
+        font-family: $brandon_medium
+        -webkit-font-smoothing: antialiased
+        text-align: center
+        cursor: pointer
+        @include transition
+        &:hover, &:focus
+            background-color: rgb(103, 161, 73)
+.footer
+    padding: 44px 0
+    background: rgb(42,44,46)
+    &__heading
+        color: rgb(255, 255, 255)
+        font-family: $helvetica_bold
+    &__text
+        color: rgb(177, 176, 175)
+        line-height: 24px
+    &__button
+        text-decoration: none
+        padding: 0
+        padding-bottom: 0.4em
+        background: transparent
+        background-position: 0 -0.125em
+        -webkit-transition: background-position 150ms ease-in-out
+        transition: background-position 150ms ease-in-out
+        color: rgb(232, 67, 2)
+        &:hover, &:focus
+            background-position: 0 0
+            background-image: linear-gradient(to top, transparent, transparent 0.0625em, currentColor 0.0625em, currentColor 0.125em, transparent 0.125em)
+    &__img
+        display: block
+        max-width: 100%
+        height: auto
+
+@import "media"
